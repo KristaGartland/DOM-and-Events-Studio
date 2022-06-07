@@ -8,6 +8,10 @@ let landing = document.getElementById("landing")
 let flightStatus = document.getElementById("flightStatus")
 let shuttleBackground = document.getElementById("shuttleBackground")
 let shuttleHeight = document.getElementById("spaceShuttleHeight")
+let upButton = document.getElementById("up")
+let downButton = document.getElementById("down")
+let leftButton = document.getElementById("left")
+let rightButton = document.getElementById("right")
 
 takeOff.addEventListener('click', function(event){
     let response = window.confirm("Confirm that the shuttle is ready for takeoff.")
